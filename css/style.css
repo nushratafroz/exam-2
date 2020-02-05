@@ -1,0 +1,426 @@
+.container{
+	font-family: 'Open Sans', sans-serif;
+}
+/*nav bar starts*/
+
+.nav-link{
+	color: #989898!important;
+
+}
+.nav-head{
+	background: #ffffff;
+    width: 100%;
+    float: left;
+
+}
+/*nav bar ends*/
+
+/*hero section starts*/
+
+.hero-title{
+	text-align: center;
+	padding: 125px;
+
+}
+.hero-title h1{
+	    font-size: 50px;
+       color: #fff;
+
+}
+.hero-title h2{
+	color: #fff;
+	
+}
+.btn-one{
+	color: #fff;
+    background: #99c50a;
+    font-size: 20px;
+    padding: 12px 27px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+
+}
+/*hero section ends*/
+
+
+/*banner section starts*/
+
+.banner{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+}
+.banner::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: #00000059;
+}
+/*banner section ends*/
+
+/*how section starts*/
+.how{
+	text-align: center;
+    padding: 90px 185px;
+
+}
+.how-content{
+	    width: 100%;
+        float: left;
+
+}
+.how-content h1{
+	    padding: 45px 220px;
+        font-size: 31.2px;
+        width: 100%;
+        color: #515151;
+
+}
+.how-content p{
+	font-size: 19.2px;
+    color: #919191;
+    padding-bottom: 45px;
+
+}
+
+/*how section ends*/
+
+/*project section starts*/
+.project{
+	width: 100%;
+    float: left;
+
+}
+.project-content{
+	width: 100%;
+    float: left;
+    background-color: #e2f8ff;
+
+}
+.project-contentt{
+	width: 100%;
+    float: left;
+    background-color: #f5f9eb;
+
+}
+.project-content-one{
+	text-align: center;
+	position: relative;
+
+}
+.project-content-one img{
+	position: absolute;
+    top: 25px;
+    left: 80px;
+}
+.project-content-two{
+	padding: 30px;
+	
+}
+.project-content-two h3{
+	color:  #515151;
+	font-size: 23.2px;
+	
+}
+.project-content-two p{
+	color: #6e7274;
+	font-size: 17.2px;
+	
+}
+.btn-two{
+	    color: #ffffff;
+        background: #26a6d1;
+        padding: 18px 24px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: none;
+
+}
+.btn-three{
+	    color: #ffffff;
+        background: #add136;
+        padding: 18px 24px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: none;
+	
+}
+/*project section ends*/
+
+/*blog section starts*/
+.blog{
+	width: 100%;
+	float: left;
+	padding: 80px 155px;
+
+}
+.blog-title{
+	padding-bottom: 45px;
+
+}
+.blog-title h1{
+	font-size: 29px;
+	color: #515151;
+	padding-bottom: 20px;
+	
+}
+.blog-title p{
+	font-size: 15.4px;
+	color: #8f8f8f;
+	
+}
+.blog-btn{
+	padding-left: 119px;
+	padding-top: 35px;
+
+}
+.btn-four{
+	    color: #838383;
+        background: #ffffff;
+        padding: 18px 24px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid #b6b6b6;
+
+}
+/* card presection starts*/
+.card{
+
+}
+.card img{
+	position: relative;
+	
+}
+.card button{
+	position: absolute;
+    top: 170px;
+    right: 15px;
+	
+}
+.btn-five{
+	background: #26a6d1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+.body-one{
+	background: #f9f9f9;
+
+}
+.body-two{
+	font-size: 17px;
+	color: #484848;
+
+}
+.body-three{
+	font-size: 12px;
+	color: #7b7b7b;
+	padding-bottom: 45px;
+
+}
+.card-a{
+	font-size: 13.2px;
+	color: #7b7b7b;
+
+}
+.card-b{
+	font-size: 13.2px;
+	color: #7b7b7b;
+	padding-left: 59px;
+
+}
+.span-one{
+	border-bottom: 1px solid #7b7b7b;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+.span-two{
+	color: #6d6d6d;
+	font-size: 15px;
+	padding-left: 99px;
+	
+}
+.fa.fa-caret-right{
+	color: #add136;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.foot{
+	padding-bottom: 42px;
+    padding-top: 107px;
+
+}
+
+/* card presection ends*/
+footer p{
+	color: #6d6d6d;
+	font-size: 13px;
+	text-align: center;
+}
+
+/*media query*/
+/*mobile device*/
+@media (min-width: 320px) and (max-width: 500px){
+	.hero-title h1{
+	    font-size: 20px;}
+	.hero-title h2{
+		font-size: 13px;
+	}
+	.btn-one{
+		font-size: 10px;
+        padding: 9px 8px;
+       margin: 22px;
+       border-radius: 10px;
+
+	}
+	.how-content h1{
+		font-size: 13px;
+        text-align: center;
+        padding: 19px 0px;
+
+	}
+	.how-content p{
+		text-align: center;
+        font-size: 10px;
+        padding-bottom: 19px
+	}
+	.how{
+	text-align: center;
+    padding: 27px 18px;
+
+}
+
+
+
+.project-content-one{
+	text-align: center;
+	position: initial;
+
+}
+.project-content-one img{
+	position: initial;
+    top: 25px;
+    left: 80px;
+}
+.blog{
+    width: 100%;
+    float: left;
+    padding: 80px 12px;
+    text-align: center;
+	
+}
+.blog-btn{
+	padding-left: 15px;
+
+}
+.card{
+	margin: 8px 0px;
+}
+
+    
+.card-a{
+	font-size: 13.2px;
+	color: #7b7b7b;
+	padding-right: 235px;
+
+}
+.card-b{
+	font-size: 13.2px;
+	color: #7b7b7b;
+	padding-left: 240px;
+
+}
+
+	
+}
+.fa.fa-caret-right{
+	color: #add136;
+    padding-left: 5px;
+    font-size: 17px;
+}
+
+.foot{
+	padding-bottom: 42px;
+    padding-top: 1px;
+
+}
+
+/* card presection ends*/
+footer p{
+	color: #6d6d6d;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+
+
+
+
+}
+/*small device*/
+@media (min-width: 501px) and (max-width: 768px){
+	
+
+}
+/*medium device*/
+@media (min-width: 769px) and (max-width: 1200px){
+
+.how{
+	text-align: center;
+	padding: 0px;
+}
+.project-content-one{
+	text-align: center;
+	position: initial;
+
+}
+.project-content-one img{
+	position: initial;
+    top: 25px;
+    left: 80px;
+}
+.blog{
+    width: 100%;
+    float: left;
+    padding: 80px 12px;
+    text-align: center;
+	
+}
+.blog-btn{
+	padding-left: 15px;
+
+}
+.card button{
+	position: initial;
+    top: 170px;
+    right: 15px;
+
+
+}
+.card-b{
+	
+	padding-left: 0px;
+
+}
+.span-two{
+	padding-left: 0px;
+}
+/*large device*/
+@media (min-width: 1201px) {
+
+}
+
+
+
